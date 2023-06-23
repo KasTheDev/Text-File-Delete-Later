@@ -8,7 +8,7 @@ html, body {
 }
 
 header{
-    position: relative;
+    position: sticky;
     width: 550px;
     height: 200px;
     overflow: hidden;
@@ -51,17 +51,12 @@ header h2{
 }
 
 .search-container{
-    position: sticky;
-    top: 30%; /* Adjust the vertical position as needed */
-    margin-top: -20px;
-    z-index: 1;
     display: flex;
     width: 462px;
     justify-content: center;
     border-radius: 6px;
     border: 1px solid var(--gray-300, #D1D5DB);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05); 
-    margin-bottom: 30px;
 }
 
 .movie-search{
@@ -102,7 +97,7 @@ header h2{
 
 .movie-card{
     border-bottom: 1px solid #E5E7EB;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 44px;
     margin-right: 44px;
     display: flex;
