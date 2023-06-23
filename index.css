@@ -52,7 +52,7 @@ header h2{
 
 .search-container{
     position: sticky;
-    top: 35%; /* Adjust the vertical position as needed */
+    top: 30%; /* Adjust the vertical position as needed */
     margin-top: -20px;
     z-index: 1;
     display: flex;
